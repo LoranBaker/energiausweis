@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+/* Global styles to prevent white background */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root, app-root, router-outlet {
+  background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #533483 100%) !important;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Ensure Angular router outlet doesn't have white background */
+router-outlet + * {
+  background: transparent;
+}
+
+/* Remove any default Angular component backgrounds */
+app-main-dashboard {
+  background: transparent;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+}
