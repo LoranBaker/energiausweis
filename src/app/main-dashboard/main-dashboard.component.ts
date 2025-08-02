@@ -186,42 +186,42 @@ export class MainDashboardComponent implements OnInit, OnDestroy, AfterViewInit 
 
   // Enhanced orb configuration with more variety
   orbs = [
-    { 
-      size: 400, 
-      color: 'rgba(102, 126, 234, 0.3)', 
-      position: { top: '5%', left: '5%' },
-      delay: 0,
-      blur: '2px'
-    },
-    { 
-      size: 250, 
-      color: 'rgba(245, 87, 108, 0.4)', 
-      position: { top: '50%', right: '10%' },
-      delay: -5,
-      blur: '1px'
-    },
-    { 
-      size: 300, 
-      color: 'rgba(75, 172, 254, 0.35)', 
-      position: { bottom: '15%', left: '15%' },
-      delay: -10,
-      blur: '1.5px'
-    },
-    { 
-      size: 180, 
-      color: 'rgba(240, 147, 251, 0.45)', 
-      position: { top: '20%', right: '40%' },
-      delay: -15,
-      blur: '0.5px'
-    },
-    { 
-      size: 220, 
-      color: 'rgba(0, 212, 170, 0.3)', 
-      position: { bottom: '40%', right: '20%' },
-      delay: -20,
-      blur: '1px'
-    }
-  ];
+  { 
+    size: 400, 
+    color: 'rgba(30, 64, 175, 0.3)', 
+    position: { top: '5%', left: '5%' },
+    delay: 0,
+    blur: '2px'
+  },
+  { 
+    size: 250, 
+    color: 'rgba(37, 99, 235, 0.4)', 
+    position: { top: '50%', right: '10%' },
+    delay: -5,
+    blur: '1px'
+  },
+  { 
+    size: 300, 
+    color: 'rgba(59, 130, 246, 0.35)', 
+    position: { bottom: '15%', left: '15%' },
+    delay: -10,
+    blur: '1.5px'
+  },
+  { 
+    size: 180, 
+    color: 'rgba(30, 58, 138, 0.45)', 
+    position: { top: '20%', right: '40%' },
+    delay: -15,
+    blur: '0.5px'
+  },
+  { 
+    size: 220, 
+    color: 'rgba(30, 64, 175, 0.25)', 
+    position: { bottom: '40%', right: '20%' },
+    delay: -20,
+    blur: '1px'
+  }
+];
 
   ngOnInit(): void {
     // Trigger entrance animations with delay
